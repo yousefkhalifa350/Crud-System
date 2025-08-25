@@ -1,0 +1,19 @@
+.come{
+    transform: translateX(-500px);
+    color: white;
+
+}
+
+
+
+/* .mycard{
+    width: 20%;
+    
+}  */
+
+
+.hello{
+    display: flex;
+    flex-direction: column;
+margin: 10px;
+}
