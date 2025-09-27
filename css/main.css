@@ -1,12 +1,15 @@
 
 body{
-    background-color: blueviolet;
+    background-color: blueviolet !important;
 }
 
 .come{
     transform: translateX(-500px);
     color: white;
-
+    -webkit-transform: translateX(-500px);
+    -moz-transform: translateX(-500px);
+    -ms-transform: translateX(-500px);
+    -o-transform: translateX(-500px);
 }
 
 
