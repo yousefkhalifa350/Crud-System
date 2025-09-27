@@ -15,20 +15,13 @@ var ProductDescriptionInput = document.getElementById("ProductDescription")
 
 var productlist = [];
 
-//product-list
-//ban3mloo get ba ykingg
-// productlist = JSON.parse(localStorage.getItem('product-list'))
 
+// if (localStorage.getItem('product-list') !=null) {
+//    productlist = JSON.parse(localStorage.getItem('product-list'))
+   
+// displayProduct()
 
-// mn gher ma a3ml jason w ashtghlt w araay !!!
-localStorage.setItem('product-list', productlist)
-
-console.log(productlist)
-
-
-displayProduct()
-
-console.log(displayProduct)
+// }
 
 
 
@@ -52,7 +45,7 @@ function addProduct() {
 
 
     //khazna l array fl local storage
-    localStorage.setItem('product-list ', JSON.stringify(productlist))
+    localStorage.setItem('product-list', JSON.stringify(productlist))
 
     //bandah l function
     displayProduct()
